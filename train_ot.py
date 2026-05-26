@@ -39,7 +39,7 @@ if __name__ == '__main__':
     parser.add_argument("--lr", type=float, default=0.01)
     parser.add_argument('--weight_decay', type=float, default=0.00001)
     parser.add_argument('--backbone', type=str, default='GCN', help="eg.GAT, GCN, GIN, SGC")
-    parser.add_argument('--method', type=str, default="ot_subgraph_replay")
+    parser.add_argument('--method', type=str, default="ot_replay")
 
     parser.add_argument('--minibatch', type=ast.literal_eval, default=False, help="whether to use the mini-batch training")
     parser.add_argument('--batch_size', type=int, default=1024)

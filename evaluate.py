@@ -244,7 +244,7 @@ def main():
                         help='Evaluation scenario: task (Task-IL) or class (Class-IL)')
 
     parser.add_argument('--backbone', type=str, default='GCN', help="Backbone GNN")
-    parser.add_argument('--method', type=str, default='ot_subgraph_replay', help="Method name")
+    parser.add_argument('--method', type=str, default='ot_replay', help="Method name")
     parser.add_argument('--n_cls_per_task', type=int, default=2, help='Classes per task')
     parser.add_argument('--GCN-args', type=str, default='{"h_dims": [256], "dropout": 0.0}', help='GCN args')
     parser.add_argument('--GAT-args', type=str, default='{"h_dims": [256], "dropout": 0.0, "num_heads": 8, "num_layers": 2, "heads": 8, "out_heads": 1}', help='GAT args')
