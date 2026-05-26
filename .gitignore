@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Local data / outputs (adjust if you actually want to version these)
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.pkl
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+
+# Nested repo backup created during recovery
+SAOT/_git_nested_backup/
